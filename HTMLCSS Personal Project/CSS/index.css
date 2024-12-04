@@ -1,0 +1,57 @@
+
+.HomeMenu {
+    background-image: url('../Images/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+#MainTitle {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); 
+}
+
+#MainP {
+    background-color: white;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px; 
+    margin-bottom: 30px;
+    line-height: 1.6; 
+    opacity: 0.85; 
+    border-radius: 20px;
+}
+
+#MainButton {
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: #5d656d; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 2px 2px 10px #000000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#MainButton:hover {
+    background-color: #404a53; 
+    transform: scale(1.05); 
+}
+
+#MainButton:focus {
+    outline: none; 
+}
